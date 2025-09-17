@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Visualización de Documentos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f5f5f5;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .doc-container {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 40px;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📂 Visualización de Archivos de Nube Híbrida</h1>
+
+  <!-- Google Drive -->
+  <div class="doc-container">
+    <h2>📑 Documento de texto: <i>prueba_docs</i></h2>
+    <iframe src="https://docs.google.com/document/d/1Oy0iqfXJPuBnGfXPpGzVrH-jI4LWVC10BU80lk1lI2M/preview"></iframe>
+    <p>👉 <a href="https://docs.google.com/document/d/1Oy0iqfXJPuBnGfXPpGzVrH-jI4LWVC10BU80lk1lI2M/edit?usp=sharing" target="_blank">Abrir en Google Docs</a></p>
+  </div>
+
+  <div class="doc-container">
+    <h2>📊 Hoja de cálculo: <i>lista3g</i></h2>
+    <iframe src="https://docs.google.com/spreadsheets/d/17OO1n7mKQRbgdJMjHqflyKll6XLZJJsoqRI0RbGQSN4/preview"></iframe>
+    <p>👉 <a href="https://docs.google.com/spreadsheets/d/17OO1n7mKQRbgdJMjHqflyKll6XLZJJsoqRI0RbGQSN4/edit?usp=sharing" target="_blank">Abrir en Google Sheets</a></p>
+  </div>
+
+  <!-- OneDrive -->
+  <div class="doc-container">
+    <h2>📄 Documento de Word: <i>Documento OneDrive</i></h2>
+    <iframe src="https://1drv.ms/w/c/20436ef0334fe244/IQRTMw9RK2r1Q4tPkqgRDQQSAXPiDrUcLwkm9xlcf3B0UJo?em=2" width="100%" height="500" frameborder="0">Esto es un documento de <a target="_blank" href="https://office.com">Microsoft Office</a> insertado con tecnología de <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    <p>👉 <a href="https://1drv.ms/w/c/20436ef0334fe244/IQRTMw9RK2r1Q4tPkqgRDQQSAXPiDrUcLwkm9xlcf3B0UJo?em=2" target="_blank">Abrir en OneDrive</a></p>
+  </div>
+
+  <div class="doc-container">
+    <h2>📊 Hoja de cálculo: <i>Excel OneDrive</i></h2>
+    <iframe src="https://1drv.ms/x/c/20436ef0334fe244/IQQ-vVSfGXVRQqSBQo1PN9y1AZzWjfF94CKnhDazRC87rR0?em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True" width="100%" height="500" frameborder="0"></iframe>
+    <p>👉 <a href="https://1drv.ms/x/c/20436ef0334fe244/ET69VJ8ZdVFCpIFCjU833LUBBj1dIEFk-ZM9PxVW2x7O-A?e=GYGVKj" target="_blank">Abrir en OneDrive</a></p>
+  </div>
+
+</body>
+</html>
